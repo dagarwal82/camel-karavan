@@ -13,7 +13,7 @@ VS Code extension based on Karavan Designer
 ## How to build Karavan Web Application
 1. Generate Camel Models and API for Typescript
 ```
-mvn clean compile exec:java -Dexec.mainClass="org.apache.camel.karavan.generator.KaravanGenerator" -f karavan-generator
+mvn clean compile exec:java -D"exec.mainClass=org.apache.camel.karavan.generator.KaravanGenerator" -f karavan-generator
 ```
 
 2. Install Karavan core library
