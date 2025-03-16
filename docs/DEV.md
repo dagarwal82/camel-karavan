@@ -80,5 +80,5 @@ Docker Engine 24+
 
 4. Run ./karavan-app in Quarkus Dev mode
 ```
-mvn clean compile quarkus:dev -Dquarkus.profile=local,public
+mvn clean compile quarkus:dev -D"quarkus.profile=local,public"
 ```
