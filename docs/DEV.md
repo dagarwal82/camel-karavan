@@ -24,7 +24,7 @@ npm install
 
 3. Build Karavan app  
 ```
-mvn clean package -f karavan-app -Dquarkus.profile=public 
+mvn clean package -f karavan-app -D"quarkus.profile=public"
 ```
 
 ## How to build Karavan VS Code extension
